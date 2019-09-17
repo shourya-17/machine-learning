@@ -233,3 +233,4 @@ def bias_genre_rating_dataset(genre_ratings, score_limit_1, score_limit_2):
     biased_dataset = pd.concat([biased_dataset[:300], genre_ratings[:2]])
     biased_dataset = pd.DataFrame(biased_dataset.to_records())
     return biased_dataset
+#helper py
